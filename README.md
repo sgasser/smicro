@@ -1,5 +1,5 @@
 # symfony-micro
-Symfony micro application ready for heroku
+Use Symfony as a microframework - ready for heroku
 
 [![Packagist](https://img.shields.io/packagist/v/sgasser/symfony-micro.svg)](https://packagist.org/packages/sgasser/symfony-micro)
 [![Installs](https://img.shields.io/packagist/dt/sgasser/symfony-micro.svg)](https://packagist.org/packages/sgasser/symfony-micro)
