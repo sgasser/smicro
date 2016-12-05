@@ -1,6 +1,11 @@
 # symfony-micro
 Symfony micro application ready for heroku
 
+[![Packagist](https://img.shields.io/packagist/v/sgasser/symfony-micro.svg)](https://packagist.org/packages/sgasser/symfony-micro)
+[![Installs](https://img.shields.io/packagist/dt/sgasser/symfony-micro.svg)](https://packagist.org/packages/sgasser/symfony-micro)
+[![license](https://img.shields.io/github/license/sgasser/symfony-micro.svg)]
+(https://github.com/sgasser/symfony-micro/blob/master/LICENSE)
+
 # What's included
  - Symfony 3.2
  
@@ -9,7 +14,7 @@ Symfony micro application ready for heroku
 ## Create project
 
 ```
-composer create-project sgasser/symfony-micro:dev-master
+composer create-project sgasser/symfony-micro
 ```
 
 ## Start local server
