@@ -27,8 +27,7 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^3.2",
-        "phpunit/phpunit": "^5.7"
+        "symfony/phpunit-bridge": "^3.2"
     },
     "scripts": {
         "symfony-scripts": [
