@@ -2,7 +2,8 @@
     "name": "sgasser/smicro",
     "license": "MIT",
     "type": "project",
-    "description": "Symfony micro application",
+    "description": "Micro-framework based on Symfony",
+    "keywords": ["framework", "symfony"],
     "autoload": {
         "psr-4": {
             "": "src/"
