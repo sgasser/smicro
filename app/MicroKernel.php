@@ -15,7 +15,6 @@ class MicroKernel extends Kernel
         $bundles = array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
-            new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
         );
 
@@ -36,7 +35,7 @@ class MicroKernel extends Kernel
             $routes->import('@WebProfilerBundle/Resources/config/routing/profiler.xml', '/_profiler');
         }
 
-        $routes->import('@AppBundle/Controller', '/', 'annotation');
+        $routes->import(__DIR__.'/config/routing.yml', '/');
     }
 
     protected function configureContainer(ContainerBuilder $c, LoaderInterface $loader)
