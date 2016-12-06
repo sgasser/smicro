@@ -12,6 +12,6 @@ class DefaultControllerTest extends WebTestCase
 
         $client->request('GET', '/');
 
-        $this->assertContains('My Symfony Application', $client->getResponse()->getContent());
+        $this->assertContains('Smicro PHP Micro-framework', $client->getResponse()->getContent());
     }
 }

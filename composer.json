@@ -1,5 +1,5 @@
 {
-    "name": "sgasser/symfony-micro",
+    "name": "sgasser/smicro",
     "license": "MIT",
     "type": "project",
     "description": "Symfony micro application",

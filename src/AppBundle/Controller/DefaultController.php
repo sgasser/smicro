@@ -3,12 +3,12 @@
 namespace AppBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return new JsonResponse('My Symfony Application');
+        return new Response('Smicro PHP Micro-framework');
     }
 }
