@@ -8,6 +8,7 @@ Smicro is the perfect solution for building Symfony based micro-services and fas
 [![Packagist](https://img.shields.io/packagist/v/sgasser/smicro.svg)](https://packagist.org/packages/sgasser/smicro)
 [![Installs](https://img.shields.io/packagist/dt/sgasser/smicro.svg)](https://packagist.org/packages/sgasser/smicro)
 [![license](https://img.shields.io/github/license/sgasser/smicro.svg)](<https://github.com/sgasser/smicro/blob/master/LICENSE>)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/12e42ff3-5bd2-4241-9e7a-5fe8d6e330ec/mini.png)](https://insight.sensiolabs.com/projects/12e42ff3-5bd2-4241-9e7a-5fe8d6e330ec)
 
 # What's included
 
