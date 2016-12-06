@@ -4,7 +4,10 @@ Micro-framework based on Symfony - Fast micro-services and APIs delivered with t
 
 Smicro is the perfect solution for building Symfony based micro-services and fast APIs. In fact, it's nearly twice as fast as Symfony Standard.
 
-[![Packagist](https://img.shields.io/packagist/v/sgasser/smicro.svg)](https://packagist.org/packages/sgasser/smicro) [![Installs](https://img.shields.io/packagist/dt/sgasser/smicro.svg)](https://packagist.org/packages/sgasser/smicro) [![license](https://img.shields.io/github/license/sgasser/smicro.svg)] (<https://github.com/sgasser/smicro/blob/master/LICENSE>)
+[![Build Status](https://travis-ci.org/sgasser/smicro.svg?branch=master)](https://travis-ci.org/sgasser/smicro)
+[![Packagist](https://img.shields.io/packagist/v/sgasser/smicro.svg)](https://packagist.org/packages/sgasser/smicro)
+[![Installs](https://img.shields.io/packagist/dt/sgasser/smicro.svg)](https://packagist.org/packages/sgasser/smicro)
+[![license](https://img.shields.io/github/license/sgasser/smicro.svg)](<https://github.com/sgasser/smicro/blob/master/LICENSE>)
 
 # What's included
 
@@ -31,10 +34,7 @@ composer create-project sgasser/smicro
     - routing.yml
     - services.yml
 - src
-  - AppBundle
 - tests
-  - AppBundle
-    - Controller
 
 ## Start local server
 
