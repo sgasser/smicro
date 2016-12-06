@@ -9,6 +9,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return new Response('Smicro PHP Micro-framework');
+        return new Response('<body>Smicro PHP Micro-framework</body>');
     }
 }
